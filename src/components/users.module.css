@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  width: 5.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  border: 1px solid rgb(91, 134, 255);
+  border-radius: 1rem;
+  transition: 0.1s;
+  background-color: rgb(198, 227, 253);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(138, 198, 255);
+  color: rgb(41, 41, 41);
+  transform: scale(1.1);
+}
